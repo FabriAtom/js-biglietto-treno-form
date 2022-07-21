@@ -1,11 +1,11 @@
-const tariffa = 0.21;
 
-const numeroKm =parseInt(prompt(' si prega di inserire il numero di chilometri che deve percorrere'));
+document.getElementById('genera').addEventListener('click', function(){
+    let numeroEta = document.getElementById('eta').value;
+    let numeroKm = document.getElementById('distanza').value;
+    let nome = document.getElementById('username').value;
+    const tariffa = 0.21;
 
-const numeroEta = parseInt( prompt("si prega di inserire l'eta del passeggero"));
-
-var prezzo = tariffa * numeroKm;
-console.log('prezzo1: ' + prezzo);
+let prezzo = tariffa * numeroKm;
 
 if (numeroEta < 18) {
     prezzo = prezzo - (prezzo * 0.2);
@@ -14,8 +14,7 @@ if (numeroEta < 18) {
 }else if (numeroEta > 65) {
     prezzo = prezzo - (prezzo * 0.4);
 }
-console.log(prezzo);
 
-// document.getElementById('id').innerText = numeroKm + numeroEta;
+document.getElementById('risultato-prezzo').innerHTML = prezzo;
+});
 
-document.getElementById('input-username')

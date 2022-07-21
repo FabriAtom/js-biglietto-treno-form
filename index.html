@@ -12,27 +12,17 @@
 <form">
     <div class="display">
        
-        <input type="text" id="input-username" name="username" placeholder="username"><br>
-        
-        <input type="number" name="distanza" placeholder="numero di km"><br>
-        
-        <select name="option" id="">
-            <option value="">seleziona una fascia d'età</option>
-            <option value="">minorenne</option>
-            <option value="">maggiorenne</option>
-            <option value="">over 65</option>
-        </select>
-        
-        <input type="button" value="Submit">
-        <input type="button" value="genera">
+        <input type="text" id="username" name="username" placeholder="username">
+        <input type="number" id="distanza" name="distanza" placeholder="numero di km">
+        <input type="number" id="eta" name="eta" placeholder="inserisci la tua eta">
+        <input type="button" id="genera" value="genera">
         <input type="button" value="annulla">
     </div>
 </form>
+<div id="risultato-prezzo">
 
 
-  <div class="display">
-    <input type="button" value="calcola">
-  </div>
+</div>
 
 
     <script src="./js/app.js"></script>
