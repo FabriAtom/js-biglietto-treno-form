@@ -15,6 +15,6 @@ if (numeroEta < 18) {
     prezzo = prezzo - (prezzo * 0.4);
 }
 
+document.getElementById('')
 document.getElementById('risultato-prezzo').innerHTML = prezzo;
 });
-

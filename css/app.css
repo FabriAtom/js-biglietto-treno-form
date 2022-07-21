@@ -9,3 +9,65 @@
     justify-content: center;
     align-items: center;
 }
+.riquadro{
+    height: 150px;
+    margin:0 50px;
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+}
+
+
+.display-2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.back{
+    background-color: rgb(185, 20, 80);
+    text-align: center;
+    height: 530px;
+}
+
+
+.bottoni{
+    margin-top: 40px;
+    padding: 8px;
+    color:rgb(185, 20, 80) ;
+}
+#username{
+    margin-right: 50px;
+    padding: 12px;
+}
+
+#distanza{
+    padding: 12px;
+}
+
+#eta{
+    margin-left: 50px;
+    padding: 12px;
+}
+
+
+.title{
+    color: black;
+}
+.marg{
+    margin-top: 20px;
+}
+
+#nome{
+    width: 130px;
+    height: 100px; 
+}
+
+.card{
+    height: 100px;
+    width: 200px;
+    color: black;
+}
+
+
+

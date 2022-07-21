@@ -9,20 +9,47 @@
 </head>
 <body>
 
-<form">
-    <div class="display">
-       
-        <input type="text" id="username" name="username" placeholder="username">
-        <input type="number" id="distanza" name="distanza" placeholder="numero di km">
-        <input type="number" id="eta" name="eta" placeholder="inserisci la tua eta">
-        <input type="button" id="genera" value="genera">
-        <input type="button" value="annulla">
+    <div class="back">
+        <h1 class=""><strong>Calcola il prezzo del tuo biglietto</strong></h1>
+        <div class="display riquadro">
+            <form">
+             <input type="text" id="username" name="username" placeholder="username">
+             <input type="number" id="distanza" name="distanza" placeholder="numero di km">
+             <input type="number" id="eta" name="eta" placeholder="inserisci la tua eta"> <br>
+             <input type="button" class="bottoni" id="genera" value="genera">
+             <input type="button" class="bottoni" value="annulla">
+            </form>
+        </div>
+
+        <h1 class="marg"><strong>il tuo biglietto</strong></h1>
+        <div class="display-2 riquadro">
+
+            <div class="card">
+                <h2 class="title"> nome passeggero</h2>  
+                <div id="nome"></div> 
+            </div>
+
+            <div class="card">
+                <h2 class="title"> Offerta</h2> 
+                <div  id="Offerta"></div>
+            </div>
+
+            <div class="card">
+                <h2 class="title">Carrozza</h2>
+                <div id="Carrozza"></div>
+            </div>
+
+            <div class="card">
+                <h2 class="title">Codice CP</h2>
+                <div id="Codice CP"></div>
+            </div>
+
+            <div class="card">
+                <h2 class="title">Costo biglietto</h2>
+                <div id="risultato-prezzo"></div>
+            </div>
+        </div>
     </div>
-</form>
-<div id="risultato-prezzo">
-
-
-</div>
 
 
     <script src="./js/app.js"></script>
